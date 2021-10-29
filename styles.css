@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/phoneplant.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar a:hover {
+    color: #dde4e6
+}
+nav {
+    flex: 1;
+    padding-left: 0.2%;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    font-family: sans-serif;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+}
+.content h1 {
+    font-family: sans-serif;
+    font-size: 390%;
+    font-weight: 100;
+    margin-bottom: 2%;
+    color: #eef1ff;
+}
+.content p {
+    font-size: 20px;
+    color: #eef1ff;
+    margin-bottom: 3%;
+    font-family: sans-serif;
+}
+.content {
+    margin-left: 10%;
+    margin-top: 8%;;
+}
+.content .landing-btn {
+    display: inline-block;
+    background: linear-gradient(42deg, #9114aa, #ff53ff);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,69,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page 2 Projects */
+.container2 {
+    text-align: center;
+    background-repeat: repeat;
+    background-image: url(images/phoneplant.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+figure {
+    width: 45%;
+    height: 45%;
+}
+figure p {
+    color: rgb(2, 2, 10)
+}
+.aboutme h5{
+    color: rgb(2, 2, 10)
+}
+
+.container-story {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/phoneplant.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+iframe {
+    display:block;
+    width:100%;
+}
+.figure-img {
+    width: 100%;
+    height: 100%;
+}
+/* Story page  */
+.container3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/headmus.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+.container3 .content h1 {
+    font-family: sans-serif;
+    font-size: 390%;
+    font-weight: 100;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+.container3 .content p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 3%;
+    font-family: sans-serif;
+}
+.container3 .content {
+    margin-left: 10%;
+    margin-top: 8%;;
+}
+.container3 .content .landing-btn {
+    display: inline-block;
+    background: linear-gradient(42deg, #9114aa, #ff53ff);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,69,0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.figure{
+    margin:25px !important;
+}
+.figure-caption p ul li{
+    list-style: none !important;
+}
