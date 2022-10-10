@@ -135,20 +135,26 @@ iframe {
     margin-left: 10%;
     margin-top: 8%;;
 }
-.container3 .content .landing-btn {
-    display: inline-block;
-    background: linear-gradient(42deg, #9114aa, #ff53ff);
-    border-radius: 6px;
+.btn-secondary {
+    /* display: inline-block; */
+    background-color:  #9114aa !important;
+    border-color: #9114aa !important;
+    /* border-radius: 6px;
     padding: 10px 20px;
     box-sizing: border-box;
     text-decoration: none;
     color: #fff;
     box-shadow: 3px 8px 22px rgba(94,28,69,0.15);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .figure{
     margin:25px !important;
 }
 .figure-caption p ul li{
     list-style: none !important;
+}
+
+
+.dropdown-menu .dropdown-item:hover {
+    background-color:  #9114aa !important;
 }
