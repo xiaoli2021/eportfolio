@@ -184,6 +184,9 @@ iframe {
     /* list-style: none !important; */
 }
 
+.figure-caption  .badge {
+    font-size: 92% !important;
+}
 
 .dropdown-menu .dropdown-item:hover {
     background-color: #9114aa !important;
